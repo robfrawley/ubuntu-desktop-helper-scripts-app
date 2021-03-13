@@ -8,20 +8,17 @@
 // any CSS you import will output into a single css file (app.css in this case)
 import './styles/app.scss';
 
-// import jquery javascript
-import $ from 'jquery';
-
 // import bootstrap javascript
 import 'bootstrap';
 
 // import bootstrap custom file input javascript
 import bsCustomFileInput from 'bs-custom-file-input';
 
-// start the Stimulus application
-import './bootstrap';
-
 // initialize bootstrap custom file input
 bsCustomFileInput.init();
+
+// start the Stimulus application
+import './bootstrap';
 
 // main document ready block
 $(document).ready(function() {

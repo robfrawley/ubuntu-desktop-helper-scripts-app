@@ -17,7 +17,7 @@
         "stylelint-config-sass-guidelines": "^8.0.0",
         "webpack-notifier": "^1.6.0"
     },
-    "license": "UNLICENSED",
+    "license": "MIT",
     "private": true,
     "scripts": {
         "dev-server": "encore dev-server",
@@ -25,9 +25,7 @@
         "watch": "encore dev --watch",
         "build": "encore production --progress"
     },
-    "dependencies": {
-        "webpack": "^5.25.0"
-    },
+    "dependencies": {},
     "jshintConfig": {
         "esversion": 6
     }
